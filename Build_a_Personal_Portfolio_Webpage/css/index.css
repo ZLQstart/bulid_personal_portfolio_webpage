@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #888;
+}
+.top {
+  background-color: #722872;
+}
+.w {
+  position: relative;
+  height: 80px;
+  
+  width: 1200px;
+  margin: 0 auto;
+}
+.header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.header-left a {
+  opacity: 0;
+  font-size: 20px;
+}
+.header-left a:hover {
+  opacity: 1;
+}
+#navbar-example  {
+ position: absolute;
+ right: 0;
+ top: 0;
+ padding-top: 10px;
+}
+.w2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+#ABOUT {
+  display: flex;
+  justify-content: space-between;
+  background-color: #aaa;
+  height: 300px;
+}
+.about-left {
+  width: 800px;
+  padding: 50px 50px;
+}
+.about-left p {
+  font-size: 24px;
+  color: white;
+}
+.about-left p:nth-child(1) {
+  font-size: 20px;
+  text-align: right;
+}
+.about-left-hr {
+  padding: 5px 0 5px 140px;
+}
+.about-left hr {
+  width: 500px;
+  border: 3px solid white;
+  text-align: right;
+}
+.about-right p {
+  font-size: 20px;
+  color: white;
+}
+#POPRTFOLIO {
+  text-align: center;
+  height: 300px;
+  background-color: white;
+  padding: 50px 50px;
+  border-bottom: 1px solid #ccc;
+}
+#POPRTFOLIO p {
+  font-size: 30px;
+  color: #a28888;
+}
+.poprtfolio-hr {
+  width: 500px;
+  margin: 0 auto;
+}
+.poprtfolio-hr hr {
+  border: 3px solid #888;
+}
+#CONTACT {
+  text-align: center;
+  padding: 50px 50px;
+  background-color: white;
+}
+#CONTACT p {
+  font-size: 30px;
+  color: #a28888;
+}
+.contact-hr {
+  width: 500px;
+  margin: 0 auto;
+}
+.contact-hr hr {
+  border: 3px solid #888;
+}
+.contact-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-b-left {
+  flex: 1;
+}
+.contact-b-right {
+  flex: 1;
+}
+#myTabContent {
+  margin-top: 0px;
+  position: relative;
+  overflow: auto;
+  height: 900px;
+}
+.bottom {
+  background-color: #aaa;
+  height: 200px;
+}
+.w3 {
+  width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  padding: 40px 20px;
+  flex: 1;
+}
+.footer-left p {
+  color: white;
+  font-size: 30px;
+}
+.footer-left p:nth-child(2) {
+  font-size: 24px;
+}
+.footer-right {
+  padding: 40px 20px;
+  flex: 1;
+}
+.footer-right p {
+  color: white;
+  font-size: 30px;
+}
+footer {
+  height: 100px;
+  background-color: #722872;
+  text-align: center;
+}
+footer p {
+  color: black;
+  font-size: 20px;
+  line-height: 100px;
+}

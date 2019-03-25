@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>freeCodeCamp : Build a Personal Portfolio Webpage</title>
+  
+  <link rel="stylesheet" href="../plugins/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body>
+  <div class="all-content">
+    <header class="top">
+      <div class="w">
+        <!--header左边区域-->
+        <div class="header-left">
+          <a href="#">qlip|UI/UX Design and Development</a>
+        </div>
+        
+        <!--header右边区域-->
+        <div id="navbar-example">
+          <!--导航条-->
+          <ul class="nav nav-tabs " role="tablist" id="myTab">
+            <li role="presentation" class="active"><a href="#ABOUT"  role="tab" >ABOUT</a></li>
+            <li role="presentation"><a href="#POPRTFOLIO"  role="tab" >POPRTFOLIO</a></li>
+            <li role="presentation"><a href="#CONTACT"  role="tab" >CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </header>
+    
+    <div class="w2">
+      <!--监听空间-->
+      <div class="tab-content" id="myTabContent" data-spy="scroll" data-target="#navbar-example" data-offset="0">
+        <div  id="ABOUT">
+          <!--about左边区域-->
+          <div class="about-left">
+            <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+            <div class="about-left-hr">
+              <hr>
+            </div>
+            <p>Web Developer - User Experience Designer - Graphic Artist</p>
+          </div>
+
+          <!--about右边区域-->
+          <div class="about-right">
+            <img src="../images/dog.png" width="380px">
+            <p>A picture of Justin looking at San Francisco from across the Golden Gate Bridge.</p>
+          </div>
+          
+        </div>
+
+        <div id="POPRTFOLIO">
+          <p>PORTFOLIO</p>
+          <div class="poprtfolio-hr">
+            <hr>
+          </div>
+        </div>
+
+        <div  id="CONTACT">
+          <p>CONTACT ME</p>
+          <div class="contact-hr">
+            <hr>
+          </div>
+          
+          <div class="contact-bottom">
+            <div class="contact-b-left">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">File input</label>
+                  <input type="file" id="exampleInputFile">
+                  <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check me out
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+
+            <div class="contact-b-right">
+              <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+              <p>I promise to reply A.S.A.P.</p>
+              <p>Note: No spam/soliciting pour moi, merci </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="w3">
+        <!--footer左边区域-->
+        <div class="footer-left">
+          <p>ABOUT THIS PAGE</p>
+          <p>Made by <a href="#">ZLQ</a>.</p>
+        </div>
+        
+        <!--footer右边区域-->
+        <div class="footer-right">
+          <p>AROUND THE WEB</p>
+        </div>
+      </div>
+      
+    </div>
+    <footer>
+      <p>qlip © 2019. All Rights Reversed</p>
+    </footer>
+
+  </div>
+  
+  
+</body>
+
+<script src="../plugins/jquery/jquery-3.3.1.js"></script>
+<script src="../plugins/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+</html>
